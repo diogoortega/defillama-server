@@ -5964,6 +5964,19 @@ export const chainCoingeckoIds = {
     url: "https://www.pharos.xyz/",
     chainId: 1672,
   },
+  "Gensyn": {
+    geckoId: "gensyn",
+    symbol: "AI",
+    cmcId: null,
+    categories: ["EVM", "Rollup"],
+    parent: {
+      chain: "Ethereum",
+      types: ["L2", "gas"],
+    },
+    twitter: "GensynFND",
+    url: "https://gensyn.network/",
+    chainId: 685689,
+  },
   "Arweave": {
     geckoId: "arweave",
     symbol: "AR",
@@ -6234,6 +6247,7 @@ const chainLabelMap = {
   "mythos": "Mythos",
   "heima": "Heima",
   "dango": "Dango",
+  "gensyn": "Gensyn",
 } as { [key: string]: string }
 
 // When we decide to change the display name of a chain, we add the mapping for the new name here

@@ -1488,5 +1488,27 @@ const data6: Protocol[] = [
       "open-interest": "dango-oi",
     }
   },
+  {
+    id: "7778",
+    name: "Delphi",
+    address: null,
+    symbol: "-",
+    url: "https://app.delphi.fyi/",
+    description: "Delphi is an information market platform where anyone can create markets and trade on outcomes - settled by AI with verifiable results.",
+    chain: "Gensyn",
+    logo: `${baseIconsUrl}/delphi-gensyn.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Prediction Market",
+    chains: ["Gensyn"],
+    module: "dummy.js",
+    twitter: "delphi_fyi",
+    listedAt: 1777636152,
+    dimensions: {
+      fees: "delphi",
+      dexs: "delphi",
+    },
+  },
 ];
 export default data6;
